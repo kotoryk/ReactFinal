@@ -1,11 +1,15 @@
 /* !=========General============ */
 .App {
-  height: 100vh;
-  width: 100%;
+  width: 100vw;
+  min-height: 100vh;
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f9b913b-c48a-43ab-a9aa-26d4355d1d80/dfuiep6-b5414370-2d74-45f0-89d6-96443ff49792.png/v1/fill/w_1920,h_1280,q_80,strp/colorful_space__28___hd_wallpaper_background_by_ixul_dfuiep6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZmOWI5MTNiLWM0OGEtNDNhYi1hOWFhLTI2ZDQzNTVkMWQ4MFwvZGZ1aWVwNi1iNTQxNDM3MC0yZDc0LTQ1ZjAtODlkNi05NjQ0M2ZmNDk3OTIucG5nIiwiaGVpZ2h0IjoiPD0xMjgwIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNmY5YjkxM2ItYzQ4YS00M2FiLWE5YWEtMjZkNDM1NWQxZDgwXC9peHVsLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.tRB1isOGfdrRNuyWSkN3qLDPA6BsTRATXs9MiC7kV8E);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: scroll;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +61,7 @@
   color: white;
 }
 .Link:hover {
-  transform: scale(1.5);
+  transform: scale(1);
   color: rgb(168, 121, 255);
   text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.884);
 }
